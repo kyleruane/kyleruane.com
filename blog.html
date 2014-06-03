@@ -1,0 +1,35 @@
+<!-- @include _header-blog -->
+
+			<div class="row">
+				<div class="large-9 large-centered columns">
+					<div class="archive-list cf">
+						<h2 data-barley="archive_title" data-barley-editor="simple">Post Archive</h2>
+						<!-- repeat:blogpost:24 -->
+						<a href="%URL%">
+							<h3 class="cf">
+								<span class="archive-post-title">%TITLE%</span>
+								<span class="published_on">%PUBLISHED_ON%</span>
+							</h3>
+						</a>
+						<!-- endrepeat -->
+						<!-- default_message:blogpost -->
+						<p style="text-align:center;font-size:15px;margin:30px 0;">There are no blog posts currently published.</p>
+						<!-- enddefault_message -->
+					</div>
+				</div>
+			</div>
+
+			<div class="pagination">
+				<div class="row">
+					<div class="large-9 large-centered columns cf">
+						<div class="large-6 columns">	
+							<!-- previous --><a href="#" class="newer inactive"><img src="images/right_arrow.svg"> Newer Posts</a><!-- endprevious -->&nbsp;
+						</div>	
+						<div class="large-6 columns">
+							<!-- next --><a href="#" class="older">Older Posts<img src="images/right_arrow.svg"></a><!-- endnext -->&nbsp;
+						</div>
+					</div>
+				</div>
+			</div>	
+		
+<!-- @include _footer -->

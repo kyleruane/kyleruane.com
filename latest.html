@@ -1,0 +1,26 @@
+<!-- @include _header-blog -->
+			
+			<div class="row">
+				<div class="large-9 large-centered columns bloglist cf">
+					<!-- repeat:blogpost:1 -->
+					<article>
+						<h2 class="post-title"><a href="%URL%">%TITLE%</a></h2>
+						<div class="meta">
+							<span class="published_on">%PUBLISHED_ON%</span>
+							<!--<span class="staricon"><img src="images/logo.svg"></span>-->
+						</div>
+						<div>%BODY%</div>
+					</article>
+					<!-- endrepeat -->
+				</div>
+			</div>
+
+			<div class="pagination">
+				<div class="row">
+					<div class="large-9 large-centered columns cf">
+						<a href="/blog" class="archive">View More Posts <img src="images/right_arrow.svg"></a>
+					</div>
+				</div>
+			</div>	
+		
+<!-- @include _footer -->

@@ -1,0 +1,31 @@
+<!-- @include _header -->
+			
+			<!--
+			<div class="row">
+				<div class="large-10 large-centered columns small-11 small-centered cf">
+					<h2 class="page-title" data-barley="work_title" data-barley-editor="simple">Work</h2>
+				</div>
+			</div>
+			-->
+			<div>
+				<div id="container">
+					<h2 class="page-title" data-barley="work_title" data-barley-editor="simple">Selected Work</h2>
+					<!-- repeat:work:50 -->
+					<div class="element gallery-piece">
+						<div class="gallery-preview">
+							%PREVIEW%
+							<a class="zoom-link" href="%URL%"><img src="<!-- @path zoom.svg -->"></a>
+						</div>
+						<div class="gallery-info">
+							<a href="%URL%">%TITLE%</a>
+							<span class="type" data-barley="work_type">Type</span>
+						</div>
+					</div>
+					<!-- endrepeat -->
+					<div class="cf"></div>
+				</div>
+			</div>
+
+			<div style="height:1px;"></div>
+		
+<!-- @include _footer -->
