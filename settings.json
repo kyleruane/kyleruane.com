@@ -1,10 +1,9 @@
 {
-    "name": "Juniper",
-    "creator": "Plain",
-    "creator_url": "http://plainmade.com",
+    "name": "kyleruane.com",
+    "creator": "Kyle Ruane",
+    "creator_url": "http://kyle.getbarley.com",
     "content_types": {
-            "work": "Work Piece",
-            "contact": "Contact Form" 
+            "work": "Work Piece"
     }
     
 }

@@ -1,14 +1,70 @@
-<!-- @include _header -->
-			
-			<div class="row">
-				<div class="large-9 large-centered columns cf">
-					<article>
-						<h2 class="page-title" data-barley="%PAGE%_title" data-barley-editor="simple">Page Title</h2>
-						<div data-barley="%PAGE%_content" data-barley-editor="advanced" class="page-content">
-							<p>Words yay!</p>
-						</div>	
-					</article>
-				</div>
-			</div>
-		
-<!-- @include _footer -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//use.typekit.net/blc3iko.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header id="site-header" role="navigation">
+        <div class="logo">
+            <a href="/" id="logo-image" data-barley="logo" data-barley-editor="image">
+                <img src="images/logo.svg">
+            </a>
+            <h1>
+                <span data-barley="page_title" data-barley-editor="mini">Kyle Ruane</span>
+                <span class="title" data-barley="desc" data-barley-editor="mini">Designer</span>
+            </h1>
+        </div>
+       <nav role="navigation">
+            <ul class="nav navbar-nav">
+                <li><a href="/latest">Noted</a><span class="sub-nav"> //<a href="/latest">Latest</a><a href="/blog">Archives</a> </span></li>
+                <li><a href="/">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header-spacer"></div>
+  
+    <div class="container">
+       <div class="row">
+            <div class="slim-centered bloglist">
+                <article>
+                    <h2 class="page-title" data-barley="%PAGE%_title" data-barley-editor="simple">Page Title</h2>
+                    <div data-barley="%PAGE%_content" data-barley-editor="advanced" class="page-content">
+                        <p>Words yay!</p>
+                    </div>  
+                </article>
+            </div>
+        </div>
+
+        <div class="container pagination">
+            <div class="row">
+                <div class="slim-centered">
+                    <a href="/blog" class="archive">View More Posts <img src="images/right_arrow.svg"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jasny-bootstrap.min.js"></script>
+    <script src="js/custom.modernizr.js"></script>
+    <script src="js/template.js"></script>
+
+</body>
+</html>
