@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Kyle Ruane</title>
 
     <!-- Bootstrap -->
     <link href="css/jasny-bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
                 <img src="images/logo.svg">
             </a>
             <h1>
-                <span data-barley="page_title" data-barley-editor="mini">Kyle Ruane</span>
+                <span data-barley="site_title" data-barley-editor="mini">Kyle Ruane</span>
                 <span class="title" data-barley="desc" data-barley-editor="mini">Designer</span>
             </h1>
         </div>
@@ -52,23 +52,27 @@
         <!-- Example row of columns -->
         <div class="row home-content">
             <div class="about">
-                <h6 class="home-heading" data-barley="home_heading_about">About Me</h6>
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                <h6 class="home-heading" data-barley="home_heading_about" data-barley-editor="mini">About Me</h6>
+                <h2 data-barley="home_subheading_about" data-barley-editor="simple">Heading</h2>
+                <div data-barley="home_content_about" data-barley-editor="plus">
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                </div>
             </div>
             <div class="note">
-                <h6 class="home-heading" data-barley="home_heading_blog">Latest Note</h6>
+                <h6 class="home-heading" data-barley="home_heading_blog" data-barley-editor="mini">Latest Note</h6>
                 <!-- repeat:blogpost:1 -->
                 <h2><a href="%URL%">%TITLE%</a></h2>
-                <div>%EXCERPT%</div>
+                <div data-barley="blogpost_excerpt" data-barley-editor="plus">%EXCERPT%</div>
                 <p><a class="more-link" href="%URL%" role="button">Read More...</a></p>
                 <!-- endrepeat -->
             </div>
             <div class="work">
-                <h6 class="home-heading" data-barley="home_heading_work">Currently Working On</h6>
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="more-link" href="#" role="button">Read More...</a></p>
+                <h6 class="home-heading" data-barley="home_heading_work" data-barley-editor="mini">Currently Working On</h6>
+                <h2 data-barley="home_subheading_work" data-barley-editor="simple">Heading</h2>
+                <div data-barley="home_content_work" data-barley-editor="plus">
+                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                </div>
+                <p><a class="more-link" href="https://dribbble.com/kyleruane" role="button">See More...</a></p>
             </div>
         </div>
     </div>
